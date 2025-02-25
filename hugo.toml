@@ -10,7 +10,7 @@ defaultContentLanguage = "fr"
 theme = 'hugo-scroll'
 
 # The browser tab name
-title = 'SARL Nicolas Colombier'
+title = 'SAS Nicolas Colombier'
 
 # In order to add version information in the page's footer set to true.
 # enableGitInfo = true
@@ -77,25 +77,25 @@ enableEmoji = true
     showFooterLinks = false
 
     [params.meta]
-        keywords = "some, keywords, for, seo, you, know, google, duckduckgo, and, such"
+        keywords = "sasnicolascolombier, Nicolas Colombier, charpentier, couvreur, zingueur, chatellerault"
 
     [[params.contacts]]
         label = "Téléphone"
-        value = "+49 1111 555555"
-        url = "tel:+49 1111 555555"
+        value = "05 49 85 88 19"
+        url = "tel:+33 5 49 85 88 19"
         icon = "fa fa-phone"
 
     [[params.contacts]]
         label = "E-mail"
-        value = "mail@janedoe.com"
-        url = "mailto:mail@janedoe.com"
+        value = "sasnicolascolombier@gmail.com"
+        url = "mailto:sasnicolascolombier@gmail.com"
         icon = "fa fa-envelope"
 
     [[params.contacts]]
         label = "Adresse"
-        value = "github.com/zjedi/hugo-scroll"
-        url = "https://github.com/zjedi/hugo-scroll"
-        icon = "fa-brands fa-github"
+        value = "16 Av. Alfred Nobel 86100 CHATELLERAULT"
+        url = "https://maps.app.goo.gl/soWcfnR2kcgpwqJz7"
+        icon = "fa fa-home"
 
     # Add additional contacts here!
     # [[params.contacts]]
