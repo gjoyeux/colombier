@@ -1,9 +1,9 @@
 :root {
 
     /* === Cover / Landing area === */
-    --cover-text-color: #1a2950;
+    --cover-text-color: #334050;
     /* Used for Landing screen menu buttons, but potentially usable for highlighting other things */
-    --highlight: #e6cd3f;
+    --highlight: #fdbc0d;
     --highlight-contrast: var(--cover-text-color);
     /*inverse colors used for :hover */
     --highlight-inverse: var(--cover-text-color);
@@ -15,7 +15,7 @@
 
 
     /* === sticky top/left navigation menus === */
-    --sticky-menu-text-color: #6783d0;
+    --sticky-menu-text-color: #334050;
 
 
     /* === Alternating content (post) sections  === */
@@ -27,7 +27,7 @@
     /* Dark section - text color */
     --section-dark-text-color: var(--section-light-bg-color);
     /* Dark section - background color */
-    --section-dark-bg-color: #1a2950;
+    --section-dark-bg-color: #7a5b4a;
 
     /* Light&Dark section >quote. Suppressive color, compared to 'Light section - text color'*/
     --section-uni-quote: grey;
@@ -39,7 +39,7 @@
     --single-page-bg-color: var(--section-light-bg-color);
 
     /* === Footer === */
-    --footer-color-background: #22343a;
+    --footer-color-background: #334050;
     --footer-color: #bbc7cc;
 
     /* === Lists === */

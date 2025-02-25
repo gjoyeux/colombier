@@ -1,9 +1,9 @@
 ---
 title: "Contact"
-weight: 4
+weight: 50
 header_menu: true
 ---
 
 {{<contact_list>}}
 
-N'hésitez pas à nous contacter !
+A bientôt !
