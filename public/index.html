@@ -70,6 +70,11 @@
 
 
 
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+
 <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png" />
 
 
@@ -152,7 +157,8 @@
               
 
               
-                 <a class='btn site-menu' href='/realisations/'>Réalisations</a>
+                
+                 <a class='btn site-menu' data-title-anchor='réalisations' href='#r%c3%a9alisations'>Réalisations</a>
               
             
               
@@ -306,6 +312,30 @@ See DE language for more examples of image management. There are multiple approa
 <p>If <code>detailed_page_homepage_content</code> is set to true or is missing at all, the link, navigation menu and the content will be rendered. In that case this section might contain less or just summarized information compared to the single page referenced by the parameter <code>detailed_page_path</code>.</p>
 <p>Want to see more about the details? See <a href="legal">dedicated page</a> with more details or hit the button &lsquo;Legal&rsquo; on the cover page.</p>
 
+<div class="carousel">
+  
+  
+    <div><img src="/images/logo.png" alt="Carousel Image"></div>
+  
+    <div><img src="/images/chef-hat.png" alt="Carousel Image"></div>
+  
+    <div><img src="/images/tools2.jpg" alt="Carousel Image"></div>
+  
+</div>
+
+<script>
+  $(document).ready(function(){
+    $('.carousel').slick({
+      dots: false,
+      infinite: true,
+      speed: 300,
+      slidesToShow: 1,
+      adaptiveHeight: true
+    });
+  });
+</script>
+
+
                 </section>
             </article>
             <div class='post-after'></div>
@@ -374,6 +404,6 @@ See DE language for more examples of image management. There are multiple approa
     
     <script>cssVars();</script>
 
-    
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 </body>
 </html>

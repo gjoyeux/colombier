@@ -1,0 +1,18 @@
+<div class="carousel">
+  {{ $images := split (.Get "images") "," }}
+  {{ range $images }}
+    <div><img src="{{ . }}" alt="Carousel Image"></div>
+  {{ end }}
+</div>
+
+<script>
+  $(document).ready(function(){
+    $('.carousel').slick({
+      dots: false,
+      infinite: true,
+      speed: 300,
+      slidesToShow: 1,
+      adaptiveHeight: true
+    });
+  });
+</script>
