@@ -1,55 +1,45 @@
 ---
-title: "A votre Service"
+title: "A Votre Service"
 header_menu_title: "Services"
-navigation_menu_title: "Nos Services"
+navigation_menu_title: "A Votre Service"
 weight: 2
 header_menu: true
 ---
 
-Feature notice: This section displays options to customize title:
+Notre entreprise offre différents types de prestations, de la petite réparation au grand projet.
 
-- has a normal section title (`title` = "The Services I Offer"),
-- custom welcome screen title (`header_menu_title` = "Services"),
-- custom navigation menu title (`navigation_menu_title` = "My Services").
+![Outils](images/tools2.jpg)
 
-That is the important part, right? You want to know what I can do for you. This is why I put this right up there into the header menu of the website.
+#### Charpente
+**Conception et Installation** : Nous concevons et installons des charpentes traditionnelles et industrielles adaptées à vos besoins spécifiques.
 
----
+**Réparation et Rénovation** : Nous effectuons des réparations et des rénovations de charpentes pour garantir la solidité et la sécurité de votre structure.
 
-### Icons
+**Traitement et Protection** : Protégez votre charpente contre les insectes et l'humidité grâce à nos traitements spécialisés.
 
-This theme includes the full set of [Font Awesome v6.6.0 icons](https://fontawesome.com/icons). Use the `{{</* icon */>}}` [shortcode](https://gohugo.io/content-management/shortcodes/) with the respective `name` to use an icon directly in your `.md` files. For example "{{< icon name="envelope" >}}":
+----
 
-```html
-{{</* icon name="envelope" */>}}
-```
+#### Couverture
+**Installation de Toitures** : Nous installons divers types de toitures, y compris les tuiles, l'ardoise et les matériaux modernes.
 
-If you want to use one of Font Awesome's brand icons—the ones that have a trademark warning and the `fa-brands` class—add `brand=true`. For example "{{< icon name="github" brand=true >}}":
+**Réparation de Toitures** : Réparation rapide et efficace des fuites et des dommages de toiture pour éviter des problèmes plus importants.
 
-```html
-{{</* icon name="github" brand=true */>}}
-```
-If you want to use these branded icons in your contact list, use the full class names in your `hugo.toml`:
+**Démoussage et Nettoyage** : Entretien régulier pour éliminer la mousse, les lichens et les débris, prolongeant ainsi la durée de vie de votre toiture.
 
-```toml
-[[params.contacts]]
-  label = "GitHub"
-  value = "github.com/zjedi/hugo-scroll"
-  url = "https://github.com/zjedi/hugo-scroll"
-  icon = "fa-brands fa-github"
-```
+----
 
-### Nutrition Coaching
+#### Zinguerie
+**Installation de Gouttières** : Pose de gouttières en zinc, PVC ou aluminium pour une évacuation optimale des eaux pluviales.
 
-This is not an easy task.
-You will likely have to pay money for this.
+**Nettoyage et Entretien** : Nettoyage régulier des gouttières pour prévenir les obstructions et les débordements.
 
-### Chef Consulting
+**Réparation et Remplacement** : Réparation ou remplacement des gouttières endommagées pour assurer une protection continue de votre habitation.
 
-I can raise your table culture!
+----
 
-![Let us get started on a clean slate](images/tools2.jpg)
+#### Services Complémentaires
+**Isolation de Toiture** : Améliorez l'efficacité énergétique de votre maison avec nos solutions d'isolation de toiture.
 
-Want to learn more about my services? See [dedicated page](services) with more details.
-[font-awesome-icons]: https://fontawesome.com/icons
-[hugo-shortcodes]: https://gohugo.io/content-management/shortcodes/
+**Pose de Velux et Fenêtres de Toit** : Installation de Velux pour apporter de la lumière naturelle à vos combles.
+
+**Étanchéité** : Solutions d'étanchéité pour protéger votre toiture contre les infiltrations d'eau.

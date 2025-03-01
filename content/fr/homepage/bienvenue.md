@@ -3,6 +3,8 @@ title: "Bienvenue"
 weight: 1
 ---
 
-__SAS Nicolas Colombier__ est une entreprise au service de vos projets pour la _charpente_, la _couverture_ et la _zinguerie_ à Châtellerault (86).
+Bienvenue chez __SAS Nicolas Colombier__, votre partenaire de confiance à Châtellerault (86100) pour tous vos besoins en __charpente__, __couverture__ et __zinguerie__. 
 
-N'hésitez pas à nous contacter pour un devis gratuit !
+Avec des années d'expérience et une équipe de professionnels qualifiés, nous offrons une gamme complète de services pour assurer la durabilité et l'esthétique de votre toiture.
+
+_N'hésitez pas à nous contacter pour un devis gratuit !_

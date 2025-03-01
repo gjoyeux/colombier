@@ -4,18 +4,16 @@ weight: 3
 header_menu: true
 ---
 
-<!-- 
-Neither embedded figure shortcode, nor Markdown hook were able to render image from asset. 
-You would have to .Resouces.GetMatch via custom shortcode.
-![Jane Doe](/images/asset-happy-ethnic-woman-sitting-at-table-with-laptop-3769021.jpg) 
--->
-![Jane Doe](/images/static-happy-ethnic-woman-sitting-at-table-with-laptop-3769021.jpg)
-See DE language for more examples of image management. There are multiple approaches.
+{{< carousel images="/images/nicolas.jpg,/images/jennifer.jpg,/images/bertrand.jpg,/images/apprenti.jpg" >}}
 
-##### Professional Experience
-
-A lot, but let us get into the details with some lorem ipsum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent feugiat lectus et magna placerat tincidunt. Nullam sit amet lectus vitae elit mollis rhoncus non eget lorem. Ut tempor sed dui quis volutpat.
+__Nicolas__, __Jennifer__ et __Bertrand__ vous aiderons à plannifier et concrétiser vos projets au plus proches de vos besoins, faisons connaissance !
 
 ----
 
-In ultrices, est at lobortis pretium, magna quam mollis neque, id viverra odio est sit amet lorem. Mauris efficitur nunc vel lectus porttitor, sit amet sodales quam eleifend. Duis et felis ut mauris dignissim efficitur. Aliquam non sem eros. Integer elit ante, bibendum id hendrerit vitae, vestibulum eget risus. Nunc efficitur nisl in iaculis vestibulum.
+#### Pourquoi Nous Choisir ?
+
+**Expertise et Savoir-faire** : Une équipe expérimentée et formée aux dernières techniques de construction.
+
+**Matériaux de Qualité** : Utilisation de matériaux durables et de haute qualité pour des résultats fiables.
+
+**Service Client** : Un service personnalisé et attentif à vos besoins et à votre satisfaction.

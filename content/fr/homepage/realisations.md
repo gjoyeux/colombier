@@ -2,18 +2,12 @@
 title: "Nos Réalisations"
 weight: 10
 header_menu_title: "Réalisations"
-navigation_menu_title: "Réalisations"
+navigation_menu_title: "Nos Réalisations"
 header_menu: true
 #detailed_page_path: /realisations/
 #detailed_page_homepage_content: true
 ---
-The file **legal-brief.md** creates an internal link on the cover page without the leading icon.
+Quelques unes de nos dernières réalisations :
 
-If the parameter `detailed_page_homepage_content` is set to false neither this section nor the navigation menu entry will be shown (but the link on the cover page will be).
-
-If `detailed_page_homepage_content` is set to true or is missing at all, the link, navigation menu and the content will be rendered. In that case this section might contain less or just summarized information compared to the single page referenced by the parameter `detailed_page_path`.
-
-Want to see more about the details? See [dedicated page](legal) with more details or hit the button 'Legal' on the cover page.
-
-{{< carousel images="/images/logo.png,/images/chef-hat.png,/images/tools2.jpg" >}}
+{{< carousel images="/images/WP_20151025_002.jpg,/images/WP_20151022_003.jpg,/images/WP_20151026_002.jpg,/images/WP_20151115_002.jpg" >}}
 
