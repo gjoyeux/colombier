@@ -4,9 +4,9 @@ weight: 3
 header_menu: true
 ---
 
-{{< carousel images="/images/team-nicolas.jpg,/images/team-jennifer.jpg,/images/team-bertrand.jpg,/images/team-apprenti.jpg" alt_prefix="Portrait professionnel de l'équipe" >}}
+{{< carousel images="/images/portrait-nicolas.svg,/images/portrait-jennifer.svg,/images/portrait-bertrand.svg" alt_prefix="Portrait illustré générique de membre de l'équipe" >}}
 
-Notre équipe vous accompagne à chaque étape pour planifier et concrétiser vos projets au plus près de vos besoins.
+Notre équipe vous accompagne à chaque étape pour planifier et concrétiser vos projets au plus près de vos besoins. Ces portraits sont des visuels provisoires, en attendant les vraies photos de l'équipe.
 
 ----
 

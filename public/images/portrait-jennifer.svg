@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" role="img" aria-labelledby="title">
+  <title id="title">Portrait illustré générique</title>
+  <rect width="600" height="600" rx="40" fill="#e8ded9"/>
+  <circle cx="300" cy="225" r="112" fill="#c98768"/>
+  <path d="M182 235c-30-145 235-185 252-8-45-70-176-75-252 8z" fill="#513c3d"/>
+  <circle cx="258" cy="235" r="9" fill="#29343a"/><circle cx="345" cy="235" r="9" fill="#29343a"/>
+  <path d="M263 292q36 22 75 0" fill="none" stroke="#864b4c" stroke-width="8" stroke-linecap="round"/>
+  <path d="M145 590q15-170 155-170t155 170" fill="#7a5360"/>
+  <path d="M235 405h130v90H235z" fill="#c98768"/>
+  <path d="M200 470q100 45 200 0" fill="#c39b5f"/>
+</svg>

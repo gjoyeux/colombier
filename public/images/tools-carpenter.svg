@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-labelledby="title desc">
+  <title id="title">Outils essentiels du charpentier</title>
+  <desc id="desc">Une enclume, un niveau, une règle et des crayons sur un établi en bois.</desc>
+  <rect width="1200" height="800" fill="#e7dfd2"/>
+  <rect y="560" width="1200" height="240" fill="#9a6848"/>
+  <path d="M0 610h1200M0 690h1200M180 560v240M610 560v240M960 560v240" stroke="#744b37" stroke-width="8" opacity=".45"/>
+  <g transform="translate(105 350)">
+    <path d="M0 100h290l-28 60H28z" fill="#273746"/>
+    <path d="M60 100V60h170v40M35 160h220l-35 175H70z" fill="#34495e"/>
+    <path d="M60 60h170l48-35-28-52H25L0 25z" fill="#4b6274"/>
+    <path d="M25-27h225" stroke="#d6dde0" stroke-width="8"/>
+  </g>
+  <g transform="translate(500 115) rotate(4)">
+    <rect width="420" height="65" rx="16" fill="#f1b72b"/>
+    <rect x="18" y="13" width="384" height="39" rx="10" fill="#f7d66c"/>
+    <rect x="190" y="17" width="45" height="31" rx="8" fill="#79a9a1"/>
+    <path d="M212 20l-10 25h20z" fill="#315d5d"/>
+    <path d="M20 65v22M90 65v22M160 65v22M280 65v22M350 65v22" stroke="#6e481e" stroke-width="5"/>
+  </g>
+  <g transform="translate(410 630) rotate(-18)">
+    <rect width="570" height="34" fill="#d7a94a"/>
+    <path d="M0 0h570v34H0z" fill="none" stroke="#704a31" stroke-width="5"/>
+    <path d="M48 0v34M96 0v20M144 0v34M192 0v20M240 0v34M288 0v20M336 0v34M384 0v20M432 0v34M480 0v20M528 0v34" stroke="#704a31" stroke-width="4"/>
+  </g>
+  <g transform="translate(850 615) rotate(-12)">
+    <path d="M0 0h285l-35 38H0z" fill="#d9b057"/>
+    <path d="M285 0l58 19-58 19-35-38z" fill="#54433e"/>
+    <path d="M45 0v38M90 0v38M135 0v38M180 0v38M225 0v38" stroke="#7e5b35" stroke-width="3"/>
+  </g>
+  <g transform="translate(820 250) rotate(14)">
+    <path d="M0 0h260l-32 22H0z" fill="#d5a94b"/>
+    <path d="M260 0l53 11-53 11-32-22z" fill="#403838"/>
+    <path d="M40 0v22M80 0v22M120 0v22M160 0v22M200 0v22" stroke="#735331" stroke-width="3"/>
+  </g>
+</svg>
