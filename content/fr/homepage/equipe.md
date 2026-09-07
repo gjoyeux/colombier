@@ -4,9 +4,9 @@ weight: 3
 header_menu: true
 ---
 
-{{< carousel images="/images/nicolas.jpg,/images/jennifer.jpg,/images/bertrand.jpg,/images/apprenti.jpg" >}}
+{{< carousel images="/images/team-nicolas.jpg,/images/team-jennifer.jpg,/images/team-bertrand.jpg,/images/team-apprenti.jpg" alt_prefix="Portrait professionnel de l'équipe" >}}
 
-__Nicolas__, __Jennifer__ et __Bertrand__ vous aideront à planifier et concrétiser vos projets au plus près de vos besoins.
+Notre équipe vous accompagne à chaque étape pour planifier et concrétiser vos projets au plus près de vos besoins.
 
 ----
 

@@ -1,8 +1,9 @@
 <div class="carousel" role="region" aria-label="Galerie photos">
   {{ $images := split (.Get "images") "," }}
+  {{ $altPrefix := .Get "alt_prefix" | default "Réalisation" }}
   {{ range $index, $image := $images }}
     <figure class="carousel__slide">
-      <img src="{{ $image }}" alt="Réalisation {{ add $index 1 }}" loading="lazy">
+      <img src="{{ $image }}" alt="{{ $altPrefix }} {{ add $index 1 }}" loading="lazy">
     </figure>
   {{ end }}
 </div>
@@ -26,6 +27,7 @@
     aspect-ratio: 4 / 3;
     border-radius: 0.5rem;
     display: block;
+    filter: saturate(0.82);
     object-fit: cover;
     width: 100%;
   }
