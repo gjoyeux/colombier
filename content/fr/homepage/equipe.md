@@ -4,7 +4,7 @@ weight: 3
 header_menu: true
 ---
 
-{{< carousel images="/colombier/images/nicolas.jpg,/colombier/images/jennifer.jpg,/colombier/images/bertrand.jpg,/colombier/images/apprenti.jpg" >}}
+{{< carousel images="/images/nicolas.jpg,/images/jennifer.jpg,/images/bertrand.jpg,/images/apprenti.jpg" >}}
 
 __Nicolas__, __Jennifer__ et __Bertrand__ vous aideront à planifier et concrétiser vos projets au plus près de vos besoins.
 
