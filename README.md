@@ -77,19 +77,6 @@ Le site est indépendant de GitHub Pages : Hugo produit uniquement des fichiers 
 3. **Netlify** : offre gratuite adaptée à un petit site statique, avec déploiement Git.
 4. **Hébergement mutualisé OVH ou o2switch** : préférable si vous voulez aussi des e-mails professionnels associés au domaine, mais plus cher qu'un hébergement statique.
 
-### Noms de domaine à vérifier
-
-La disponibilité et les tarifs changent ; vérifier au moment de l'achat chez un registrar :
-
-- `nicolas-colombier.fr`
-- `sas-colombier.fr`
-- `colombier-charpente.fr`
-- `colombier-couverture.fr`
-- `charpente-colombier.fr`
-- `colombier-chatellerault.fr`
-
-Le meilleur compromis mémorisation / activité locale est probablement **`colombier-charpente.fr`** ou **`nicolas-colombier.fr`**. Éviter les noms trop longs et les tirets multiples.
-
 ### Migration vers un domaine
 
 1. Acheter le domaine chez un registrar accrédité `.fr`.
