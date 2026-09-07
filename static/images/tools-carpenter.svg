@@ -1,14 +1,19 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-labelledby="title desc">
   <title id="title">Outils essentiels du charpentier</title>
-  <desc id="desc">Une enclume, un niveau, une règle et des crayons sur un établi en bois.</desc>
+  <desc id="desc">Une enclume de charpentier à longue table, un niveau, une règle et des crayons sur un établi en bois.</desc>
   <rect width="1200" height="800" fill="#e7dfd2"/>
   <rect y="560" width="1200" height="240" fill="#9a6848"/>
   <path d="M0 610h1200M0 690h1200M180 560v240M610 560v240M960 560v240" stroke="#744b37" stroke-width="8" opacity=".45"/>
-  <g transform="translate(105 350)">
-    <path d="M0 100h290l-28 60H28z" fill="#273746"/>
-    <path d="M60 100V60h170v40M35 160h220l-35 175H70z" fill="#34495e"/>
-    <path d="M60 60h170l48-35-28-52H25L0 25z" fill="#4b6274"/>
-    <path d="M25-27h225" stroke="#d6dde0" stroke-width="8"/>
+  <!-- Compact carpenter's anvil: long face, square heel and pointed horn. -->
+  <g transform="translate(90 375)">
+    <path d="M0 45h275l88-22 84 22-84 22-88-22H0z" fill="#536b79"/>
+    <path d="M0 45h275v40H0z" fill="#344b59"/>
+    <path d="M38 85h205l-22 55H60z" fill="#425c6b"/>
+    <path d="M60 140h165l-20 185H80z" fill="#34495e"/>
+    <path d="M25 45h250" stroke="#d6dde0" stroke-width="7"/>
+    <circle cx="205" cy="65" r="12" fill="#1f2d35" stroke="#9baab0" stroke-width="5"/>
+    <path d="M275 23h82l84 22-84 22h-82z" fill="#607987"/>
+    <path d="M15 45h38v-38h52v38" fill="#607987"/>
   </g>
   <g transform="translate(500 115) rotate(4)">
     <rect width="420" height="65" rx="16" fill="#f1b72b"/>
