@@ -9,5 +9,4 @@ header_menu: true
 ---
 Quelques unes de nos dernières réalisations :
 
-{{< carousel images="/colombier/images/WP_20151025_002.jpg,/colombier/images/WP_20151022_003.jpg,/colombier/images/WP_20151026_002.jpg,/colombier/images/WP_20151115_002.jpg" >}}
-
+{{< carousel images="/images/WP_20151025_002.jpg,/images/WP_20151022_003.jpg,/images/WP_20151026_002.jpg,/images/WP_20151115_002.jpg" >}}

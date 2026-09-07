@@ -1,18 +1,34 @@
-<div class="carousel">
+<div class="carousel" role="region" aria-label="Galerie photos">
   {{ $images := split (.Get "images") "," }}
-  {{ range $images }}
-    <div><img src="{{ . }}" alt="Carousel Image"></div>
+  {{ $altPrefix := .Get "alt_prefix" | default "Réalisation" }}
+  {{ range $index, $image := $images }}
+    <figure class="carousel__slide">
+      <img src="{{ $image }}" alt="{{ $altPrefix }} {{ add $index 1 }}" loading="lazy">
+    </figure>
   {{ end }}
 </div>
 
-<script>
-  $(document).ready(function(){
-    $('.carousel').slick({
-      dots: false,
-      infinite: true,
-      speed: 300,
-      slidesToShow: 1,
-      adaptiveHeight: true
-    });
-  });
-</script>
+<style>
+  .carousel {
+    display: flex;
+    gap: 1rem;
+    margin: 2rem 0;
+    overflow-x: auto;
+    padding: 0 0 1rem;
+    scroll-snap-type: x mandatory;
+    scrollbar-width: thin;
+  }
+  .carousel__slide {
+    flex: 0 0 min(82vw, 42rem);
+    margin: 0;
+    scroll-snap-align: center;
+  }
+  .carousel__slide img {
+    aspect-ratio: 4 / 3;
+    border-radius: 0.5rem;
+    display: block;
+    filter: saturate(0.82);
+    object-fit: cover;
+    width: 100%;
+  }
+</style>

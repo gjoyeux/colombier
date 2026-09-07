@@ -6,40 +6,36 @@ weight: 2
 header_menu: true
 ---
 
-Notre entreprise offre différents types de prestations, de la petite réparation au grand projet.
+Nous intervenons de la petite réparation au projet complet, avec une attention particulière portée à la qualité des finitions et à la tenue dans le temps.
 
-![Outils](images/tools2.jpg)
+![Travail du bois en atelier](images/tools-carpenter.jpg)
 
 #### Charpente
-**Conception et Installation** : Nous concevons et installons des charpentes traditionnelles et industrielles adaptées à vos besoins spécifiques.
+**Conception et pose** : Charpentes traditionnelles ou industrielles, nous proposons une solution adaptée à votre bâtiment et à votre projet.
 
-**Réparation et Rénovation** : Nous effectuons des réparations et des rénovations de charpentes pour garantir la solidité et la sécurité de votre structure.
+**Réparation et rénovation** : Nous renforçons et restaurons les structures existantes pour garantir leur solidité et leur sécurité.
 
-**Traitement et Protection** : Protégez votre charpente contre les insectes et l'humidité grâce à nos traitements spécialisés.
+**Traitement et protection** : Nous vous conseillons sur les traitements adaptés contre l'humidité et les insectes.
 
 ----
 
 #### Couverture
-**Installation de Toitures** : Nous installons divers types de toitures, y compris les tuiles, l'ardoise et les matériaux modernes.
+**Installation de toitures** : Pose et rénovation de couvertures en tuiles, ardoises et matériaux adaptés à votre habitation.
 
-**Réparation de Toitures** : Réparation rapide et efficace des fuites et des dommages de toiture pour éviter des problèmes plus importants.
+**Réparation de toitures** : Recherche de fuite, remplacement d'éléments endommagés et remise en état pour éviter les dégâts.
 
-**Démoussage et Nettoyage** : Entretien régulier pour éliminer la mousse, les lichens et les débris, prolongeant ainsi la durée de vie de votre toiture.
+**Entretien** : Démoussage et nettoyage pour prolonger la durée de vie de votre toiture.
 
 ----
 
 #### Zinguerie
-**Installation de Gouttières** : Pose de gouttières en zinc, PVC ou aluminium pour une évacuation optimale des eaux pluviales.
+**Évacuation des eaux pluviales** : Pose et remplacement de gouttières, descentes et raccords en zinc, PVC ou aluminium.
 
-**Nettoyage et Entretien** : Nettoyage régulier des gouttières pour prévenir les obstructions et les débordements.
-
-**Réparation et Remplacement** : Réparation ou remplacement des gouttières endommagées pour assurer une protection continue de votre habitation.
+**Finitions en zinc** : Habillage, raccords et éléments de zinguerie réalisés pour assurer une étanchéité durable.
 
 ----
 
-#### Services Complémentaires
-**Isolation de Toiture** : Améliorez l'efficacité énergétique de votre maison avec nos solutions d'isolation de toiture.
+#### Un accompagnement de proximité
+Nous étudions votre besoin sur place et vous proposons une solution claire, adaptée à votre budget et à votre bâtiment.
 
-**Pose de Velux et Fenêtres de Toit** : Installation de Velux pour apporter de la lumière naturelle à vos combles.
-
-**Étanchéité** : Solutions d'étanchéité pour protéger votre toiture contre les infiltrations d'eau.
+<a class="text-link" href="#contact">Parlons de votre projet</a>

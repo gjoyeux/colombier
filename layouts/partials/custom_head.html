@@ -1,50 +1,163 @@
-<!-- A partial to be overwritten by the user.
-     Its content will appear before the closing </head>-tag -->
-
-
-<!-- Custom CSS via inline styles
-     You may use this template to add custom CSS to your site like so: -->
-<!--
 <style>
-:root {
-    /* see variables.scss for more variables*/
+#site-head.withCenteredImage::before {
+    background: linear-gradient(110deg, rgba(15, 23, 42, 0.88), rgba(15, 23, 42, 0.38) 62%, rgba(15, 23, 42, 0.2));
+    content: "";
+    inset: 0;
+    position: absolute;
+    z-index: 0;
+}
 
-    /*
-    --section-light-text-color: #3a4145!important;
-    --section-light-bg-color: #ffdb8c!important;
-    --section-dark-bg-color: #035e00!important;
-    */
+#site-head .vertical,
+#site-head-content {
+    position: relative;
+    z-index: 1;
+}
 
-     /* define list element for unnumbered lists, leave empty for default list element */
-     /* fa-asterisk is the default icon if this variable definition is missing completely */
-     --ul-li-icon: fa-dashcube;     /* this sets fa-dashcube as list icon */
-     --ul-li-icon: ;                /* this sets the default html list icon */
+#site-head .title-and-description-guard {
+    background-color: rgba(15, 23, 42, 0.78) !important;
+    border: 1px solid rgba(255, 255, 255, 0.28);
+    border-radius: 0.75rem;
+    box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.22);
+    color: #fff;
+    max-width: 48rem;
+    padding: clamp(1.25rem, 4vw, 2.5rem);
+}
+
+#site-head .blog-title,
+#site-head .blog-description {
+    color: #fff;
+    text-shadow: none;
+}
+
+#site-head .blog-title {
+    font-size: clamp(3rem, 7vw, 5rem);
+    line-height: 1.05;
+}
+
+#site-head .blog-description {
+    font-size: clamp(1.5rem, 3vw, 2.5rem);
+    line-height: 1.25;
+}
+
+.contact-form {
+    border: 1px solid currentColor;
+    border-radius: 0.75rem;
+    margin-top: 2rem;
+    padding: clamp(1rem, 3vw, 2rem);
+}
+
+.contact-form__grid {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.contact-form label {
+    display: block;
+    font-weight: 700;
+    margin-bottom: 0.35rem;
+}
+
+.contact-form input,
+.contact-form textarea {
+    background: var(--section-light-bg-color);
+    border: 2px solid transparent;
+    border-radius: 0.35rem;
+    box-sizing: border-box;
+    color: var(--section-light-text-color);
+    font: inherit;
+    padding: 0.75rem;
+    width: 100%;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+    border-color: var(--highlight);
+    outline: 3px solid color-mix(in srgb, var(--highlight) 35%, transparent);
+}
+
+.contact-form__message {
+    grid-column: 1 / -1;
+}
+
+.contact-form button {
+    background: var(--highlight);
+    border: 2px solid var(--highlight);
+    border-radius: 0.35rem;
+    color: var(--highlight-contrast);
+    cursor: pointer;
+    font: inherit;
+    font-weight: 700;
+    margin-top: 1rem;
+    padding: 0.75rem 1.25rem;
+}
+
+.contact-form button:hover,
+.contact-form button:focus-visible {
+    background: var(--highlight-inverse);
+    color: var(--highlight-inverse-contrast);
+}
+
+.contact-form__hint {
+    font-size: 0.9em;
+    margin-bottom: 0;
+}
+
+#notre-équipe .carousel__slide img {
+    border: 1px solid rgba(31, 41, 51, 0.18);
+    box-shadow: 0 1rem 2rem rgba(31, 41, 51, 0.14);
+    filter: grayscale(0.08) saturate(0.88);
+}
+
+#notre-équipe .carousel__slide {
+    flex-basis: min(70vw, 24rem);
+}
+
+@media (max-width: 640px) {
+    .contact-form__grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+        scroll-behavior: auto !important;
+        transition-duration: 0.01ms !important;
+    }
 }
 </style>
--->
 
-<!-- Custom CSS via "custom.css"-file
-     If you would rather place your custom CSS into
-     a separate file, create a "custom.css" in your
-     local "static/css"-directory. Then add a <link>-tag
-     referencing your "custom.css" like so: -->
+<meta name="theme-color" content="#1f2933">
+<meta name="format-detection" content="telephone=yes">
+<link rel="canonical" href="{{ .Permalink }}">
+<meta property="og:locale" content="fr_FR">
+<meta property="og:site_name" content="SAS Colombier Nicolas">
 
-<!-- <link rel="stylesheet" href='{{ "css/custom.css" | absURL }}'> -->
-
-<!-- Custom CSS: Color Codes
-     You may checkout https://htmlcolorcodes.com/ to get those
-     weird color codes (like "#22343A") ;-). -->
-
-<!-- Custom link-tags for different icons
-     Generated via https://favicon.io/favicon-generator/ -->
-
-<!-- Include Slick Carousel CSS and JS -->
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
-<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "RoofingContractor",
+  "@id": "{{ .Site.BaseURL }}#business",
+  "name": "SAS Colombier Nicolas",
+  "description": "Charpente, couverture et zinguerie à Châtellerault.",
+  "url": "{{ .Site.BaseURL }}",
+  "image": "{{ "images/hero.jpg" | absURL }}",
+  "telephone": "+33 5 49 85 88 19",
+  "email": "sasnicolascolombier@gmail.com",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "16 avenue Alfred Nobel",
+    "postalCode": "86100",
+    "addressLocality": "Châtellerault",
+    "addressCountry": "FR"
+  },
+  "areaServed": "Châtellerault et ses environs"
+}
+</script>
 
 {{ with resources.Get "images/apple-touch-icon.png" }}<link rel="apple-touch-icon" sizes="180x180" href="{{ .RelPermalink }}" />{{ end }}
 {{ with resources.Get "images/favicon.svg" }}<link rel="icon" type="image/svg+xml" href="{{ .RelPermalink }}" />{{ end }}
 {{ range seq 9 4 }}{{ $size := pow 2 . }}{{ $file := replace "images/favicon-##x##.png" "##" $size }}{{ with resources.Get $file }}
 <link rel="icon" type="{{ .MediaType.Type }}" sizes="{{- $size -}}x{{- $size -}}" href="{{ .RelPermalink }}" />{{ end }}{{ end }}
-
