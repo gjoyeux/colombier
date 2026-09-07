@@ -8,7 +8,7 @@ header_menu: true
 
 Nous intervenons de la petite réparation au projet complet, avec une attention particulière portée à la qualité des finitions et à la tenue dans le temps.
 
-![Outils essentiels du charpentier](images/tools-carpenter.svg)
+![Travail du bois en atelier](images/tools-carpenter.jpg)
 
 #### Charpente
 **Conception et pose** : Charpentes traditionnelles ou industrielles, nous proposons une solution adaptée à votre bâtiment et à votre projet.
