@@ -2,8 +2,9 @@
   {{ $images := split (.Get "images") "," }}
   {{ $altPrefix := .Get "alt_prefix" | default "Réalisation" }}
   {{ range $index, $image := $images }}
+    {{ $imageURL := printf "%s%s" site.Home.RelPermalink (replaceRE "^/" "" $image) }}
     <figure class="carousel__slide">
-      <img src="{{ $image }}" alt="{{ $altPrefix }} {{ add $index 1 }}" loading="lazy">
+      <img src="{{ $imageURL }}" alt="{{ $altPrefix }} {{ add $index 1 }}" loading="lazy">
     </figure>
   {{ end }}
 </div>
