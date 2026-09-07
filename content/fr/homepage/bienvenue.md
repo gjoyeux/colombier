@@ -9,4 +9,4 @@ De la réparation à la rénovation complète, nous vous accompagnons avec un sa
 
 __Besoin d'un conseil ou d'un devis ?__ Contactez-nous, nous vous répondrons avec plaisir.
 
-[Demander un devis](#contact) · [Découvrir nos services](#a-votre-service)
+<a class="text-link" href="#contact">Demander un devis</a> · <a class="text-link" href="#a-votre-service">Découvrir nos services</a>

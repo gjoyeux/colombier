@@ -4,7 +4,7 @@ weight: 3
 header_menu: true
 ---
 
-{{< carousel images="/images/team-placeholder-1.jpg,/images/team-placeholder-2.jpg,/images/team-placeholder-3.jpg" alt_prefix="Portrait photo générique de membre de l'équipe" >}}
+{{< carousel images="/images/nicolas.jpg,/images/jennifer.jpg,/images/bertrand.jpg" alt_prefix="Portrait de membre de l'équipe" >}}
 
 Notre équipe vous accompagne à chaque étape pour planifier et concrétiser vos projets au plus près de vos besoins. Ces portraits sont des visuels provisoires, en attendant les vraies photos de l'équipe.
 

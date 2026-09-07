@@ -38,4 +38,4 @@ Nous intervenons de la petite réparation au projet complet, avec une attention 
 #### Un accompagnement de proximité
 Nous étudions votre besoin sur place et vous proposons une solution claire, adaptée à votre budget et à votre bâtiment.
 
-[Parlons de votre projet](#contact)
+<a class="text-link" href="#contact">Parlons de votre projet</a>
