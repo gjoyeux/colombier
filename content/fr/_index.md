@@ -1,6 +1,6 @@
 ---
 # Striking header background image, Ideal images are homogenous around the centre and contrasting to the text. Non-ideal images can use `title_guard`
-header_image: "images/tools.jpg"
+header_image: "images/hero.jpg"
 #
 # When set true, uses video from custom_header_video.html partial, instead of header_image
 header_use_video: false
@@ -9,8 +9,8 @@ header_use_video: false
 header_logo: "images/logo.png"
 #
 # Headers are safeHTML, you can use HTML tags such as b,i,u,br
-header_headline: "SAS Nicolas Colombier"
-header_subheadline: "<b>Charpente</b> Couverture & <b>Zinguerie</b>"
+header_headline: "SAS Colombier Nicolas"
+header_subheadline: "<b>Charpente</b>, <b>couverture</b> & <b>zinguerie</b> à Châtellerault"
 
 # Add a 'Go back to top' item to the navigation menu
 # Title: name of navigation menu entry

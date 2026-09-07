@@ -28,7 +28,7 @@ enableEmoji = true
     # services like Twitter or Slack want to generate a preview of a link to your site.
     # See https://gohugo.io/templates/internal#twitter-cards and https://gohugo.io/templates/internal#open-graph.
     # NOT the actual header background image, go to _index.md instead
-    images = ["images/cover-image.jpg"]
+    images = ["images/hero.jpg"]
 
     # When set true, it creates a visual guard (partially transparent rounded box), preventing non-ideal background images from interfering with title/description headings
     # Ideal images are homogenous around the centre and contrasting to the text.
@@ -42,7 +42,7 @@ enableEmoji = true
     title = "SAS Nicolas Colombier - Charpente Couverture & Zinguerie"
 
     # The "description" of your website. This is used in the meta data of your generated html.
-    description = "Charpente Couverture & Zinguerie"
+    description = "SAS Colombier Nicolas, votre artisan charpentier, couvreur et zingueur à Châtellerault."
 
     # Show a menu of languages available
     language_menu = false
@@ -53,7 +53,7 @@ enableEmoji = true
 
     # A "copyright"-line to be added at the bottom of the page.
     # Hint: Plain HTML is supported in here as well. So you may e.g. add a link to your legal imprint-page.
-    copyright = "© Nicolas Colombier"
+    copyright = "© SAS Colombier Nicolas"
 
     # This theme will, by default, inject a design-by-line at the bottom of the page.
     # You can turn it off, but we would really appreciate if you don’t :-)
@@ -77,7 +77,7 @@ enableEmoji = true
     showFooterLinks = false
 
     [params.meta]
-        keywords = "sasnicolascolombier, Nicolas Colombier, charpentier, couvreur, zingueur, chatellerault"
+        keywords = "SAS Colombier Nicolas, charpentier, couvreur, zingueur, toiture, Châtellerault, Vienne"
 
     [[params.contacts]]
         label = "Téléphone"
